@@ -1,0 +1,81 @@
+=====================================
+        OM PRAKASH SAHOO
+    Aspiring Software Engineer
+=====================================
+
+CONTACT INFORMATION
+📧 Email: sahooomprakash644@gmail.com
+📍 Location: Angul, Odisha, India
+💼 LinkedIn: linkedin.com/in/omprakashsahoo003/
+🔗 GitHub: github.com/OmprakashX003
+
+EDUCATION
+---------
+🎓 Master of Computer Applications (MCA)
+   Lovely Professional University (LPU)
+   2024 – Present
+
+🎓 Bachelor of Science in Information Technology Management (B.Sc. ITM)
+   Udayanath Autonomous College
+   2021 – 2024
+
+TECHNICAL SKILLS
+----------------
+Programming Languages: C++, Java, Python, JavaScript
+Web Technologies: HTML, CSS, Bootstrap, Node.js, React
+Database & Tools: MySQL, MongoDB, Git, GitHub
+Data Science: Pandas, NumPy, Matplotlib
+Soft Skills: Teamwork, Growth Mindset, Time Management, Persuasion
+
+PROJECTS
+--------
+🚀 Mentor Connect (April 2025)
+   Technologies: Java, MySQL, Spring Boot, JavaFX/Swing
+   - Built mentor-mentee connection platform with authentication, scheduling, messaging
+   - Used Spring Boot for backend and MySQL for data storage
+   - Designed responsive interface with JavaFX/Swing
+   - Followed SDLC principles for smooth performance
+
+🏠 Rental System (April 2025)
+   Technologies: HTML, CSS, Bootstrap
+   - Developed responsive rental system web application
+   - Implemented dynamic listing pages with filtering and sorting
+   - Added form validation and cross-device compatibility
+
+💊 Pharmacy Management System (December 2024)
+   Technologies: MySQL
+   - Managed inventory, sales, suppliers, and customer records
+   - Designed relational database with secure login functionalities
+   - Executed SQL queries for insertion, retrieval, and analysis
+   - Ensured data integrity with foreign key constraints
+
+CERTIFICATIONS
+--------------
+📜 Introduction to Data Science - Coursera (IBM) – July 2025
+📜 Data Analysis with Python - Cognitive Class (IBM) – March 2025
+📜 Software Engineering - Saylor Academy – October 2024
+📜 Web Development - GeeksforGeeks – August 2024
+
+ACHIEVEMENTS
+------------
+🏆 Hackathon Participation
+   - Actively participated in various hackathons
+   - Showcased problem-solving skills and innovative thinking
+
+💡 Patent Publication Interest
+   - Working on innovative ideas with potential for patent publication
+   - Particularly focused on AI-based systems
+
+CORE COMPETENCIES
+-----------------
+• Full-Stack Web Development
+• Database Design & Management
+• Software Development Life Cycle (SDLC)
+• Data Analysis & Visualization
+• Problem Solving & Algorithm Design
+• Team Collaboration & Leadership
+
+=====================================
+Generated from Digital Portfolio
+Visit: [Your Portfolio URL]
+=====================================

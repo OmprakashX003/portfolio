@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Prakash Sahoo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Om Prakash Sahoo</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="home-title">
+                        <h1 class="home-greeting">Hi! I'm</h1>
+                        <h1 class="home-name"><span class="highlight">Om Prakash Sahoo</span></h1>
+                    </div>
+                    <p class="home-tagline">Tech enthusiast and aspiring software engineer focused on building intelligent and user-centric digital experiences.</p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#" class="btn btn-secondary" id="download-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-placeholder">
+                        <img src="profile.jpg" alt="Om Prakash Sahoo" class="profile-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-overlay" style="display: none;">
+                            <i class="fas fa-user"></i>
+                            <p>Add Your Photo</p>
+                            <small>Save as 'profile.jpg' in this folder</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        A tech enthusiast and aspiring software engineer from Angul, Odisha, currently pursuing an MCA at Lovely Professional University, with a keen interest in developing innovative solutions that simplify everyday life.
+                    </p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h4>Master of Computer Applications (MCA)</h4>
+                                <p class="institution">Lovely Professional University</p>
+                                <p class="duration">2024 – Present</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h4>Bachelor of Science in Information Technology Management (B.Sc. ITM)</h4>
+                                <p class="institution">Udayanath Autonomous College</p>
+                                <p class="duration">2021 – 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item-progress">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item-progress">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item-progress">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item-progress">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Web Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Teamwork</span>
+                        <span class="skill-item">Growth Mindset</span>
+                        <span class="skill-item">Time Management</span>
+                        <span class="skill-item">Persuasion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Mentor Connect</h3>
+                    <p class="project-tech">Java, MySQL, Spring Boot, JavaFX/Swing (Apr '25)</p>
+                    <p class="project-description">Built a mentor-mentee connection platform with authentication,
+                        scheduling, messaging. Used Spring Boot for backend and MySQL for data storage. Designed a
+                        responsive interface with JavaFX/Swing. Followed SDLC, debugging for smooth performance.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="View Code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link" title="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Rental System</h3>
+                    <p class="project-tech">HTML, CSS, Bootstrap (Apr '25)</p>
+                    <p class="project-description">Developed a responsive rental system web application. Implemented
+                        dynamic listing pages with filtering and sorting. Added form validation and ensured cross-device
+                        compatibility.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="View Code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link" title="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Pharmacy Management System</h3>
+                    <p class="project-tech">MySQL (Dec '24)</p>
+                    <p class="project-description">Managed inventory, sales, suppliers, and customer records. Designed
+                        relational database with secure login functionalities. Executed SQL queries for insertion,
+                        retrieval, and analysis. Ensured data integrity with foreign key constraints.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="View Code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link" title="Documentation">
+                            <i class="fas fa-file-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Introduction to Data Science</h3>
+                    <p class="cert-provider">Coursera (IBM) – Jul '25</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analysis with Python</h3>
+                    <p class="cert-provider">Cognitive Class (IBM) – Mar '25</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Software Engineering</h3>
+                    <p class="cert-provider">Saylor Academy – Oct '24</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p class="cert-provider">GeeksforGeeks – Aug '24</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Hackathon Participation</h3>
+                    <p>Actively participated in various hackathons, showcasing problem-solving skills and innovative
+                        thinking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect 🤝</h2>
+            <div class="contact-content">
+                <div class="contact-layout">
+                    <!-- Left Side - Contact Info -->
+                    <div class="contact-info">
+                        <h3 class="contact-heading">Let's Connect</h3>
+                        <p class="contact-subtext">I'm currently open to new opportunities and interesting projects.
+                            Whether you have a question about my work, want to discuss a potential collaboration, or
+                            just want to say hello, feel free to reach out!</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:sahooomprakash644@gmail.com">sahooomprakash644@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <div class="contact-text">
+                                    <h4>GitHub</h4>
+                                    <a href="https://github.com/OmprakashX003"
+                                        target="_blank">github.com/OmprakashX003</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="contact-text">
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/omprakashsahoo003/"
+                                        target="_blank">linkedin.com/in/omprakashsahoo003/</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <span>Angul, Odisha, India</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="contact-text">
+                                    <h4>Currently</h4>
+                                    <span>Pursuing MCA at Lovely Professional University (LPU)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Contact Form -->
+                    <div class="contact-form">
+                        <h3 class="contact-heading">Send a Message</h3>
+                        <form id="contactForm" class="form">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message"
+                                    placeholder="Tell me about your project or just say hello…" rows="5"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="quick-links">
+                    <h3 class="quick-links-title">Quick Links</h3>
+                    <div class="quick-links-grid">
+                        <a href="mailto:sahooomprakash644@gmail.com" class="quick-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/omprakashsahoo003/" target="_blank" class="quick-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/OmprakashX003" target="_blank" class="quick-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Om Prakash Sahoo</h3>
+                    <p>Aspiring Software Engineer passionate about creating innovative solutions and building meaningful
+                        technology.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/OmprakashX003" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/omprakashsahoo003/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:sahooomprakash644@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Currently</h4>
+                    <p>🎓 Pursuing MCA at Lovely Professional University</p>
+                    <p>📍 Angul, Odisha, India</p>
+                    <p>💼 Open to opportunities</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Om Prakash Sahoo. All rights reserved. Built with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
